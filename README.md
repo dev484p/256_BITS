@@ -11,7 +11,8 @@ Set up dependencies:
 conda env create -f environment.yaml
 conda activate bits_256
 ```
-
+#ERROR
+I'm figuring out how to upload weights of the model in git repo
 # Setup
 1. Place one or more input images in the folder \images\input
 2. Run the python file `Main.py`
