@@ -7,5 +7,5 @@ Project for Internship at 256_BITS Studio : This repository contains code to det
 
 # Installation
 1. Set up dependencies:
-'''conda env create -f environment.yaml
-conda activate midas-py310'''
+'conda env create -f environment.yaml'
+conda activate midas-py310
