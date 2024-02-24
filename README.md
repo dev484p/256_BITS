@@ -4,8 +4,6 @@ Project for Internship at 256_BITS Studio : This repository contains code to det
 # Demo
 https://github.com/dev484p/256_BITS/assets/126667293/98b2ddf4-12ce-430b-a700-ef7ba1537256
 
-[![model_1](https://github.com/dev484p/256_BITS/blob/main/images/input/dataset_img4.png)]([https://github.com/your-username/your-repository/blob/main/demo_video.mp4](https://github.com/dev484p/256_BITS/blob/main/Demo/demo_1.mp4))
-
 # Overview
 1. For Object detection we use You Only Look Once: Unified, Real-Time Object Detection (YOLOv3) algorithm and a pre-trained model on 50 classes [coco](https://github.com/dev484p/256_BITS/blob/main/Obj_detection/coco.names). YOLO architecture is designed to simultaneously predict bounding boxes and class probabilities for multiple objects in an image. It divides the input image into a grid of cells and makes predictions for each cell. Each cell is responsible for predicting bounding boxes and associated class probabilities for objects that fall within that cell.
 2. For Depth Estimation we use Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer(MiDaS). This method is based on the ResNet (Residual Network). Model consists of a multi-scale encoder-decoder architecture inspired by the ResNet architecture.
