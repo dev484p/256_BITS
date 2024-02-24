@@ -22,6 +22,11 @@ conda activate bits_256
 
    Optional :
    You can run Intrinsics_Calibration.py to calibrate your camera before process. [refrence](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
+## Performance
+| Model | mAP | FPS |
+|-------|-----|-----|
+| YOLOv3| 57.9| 20  |
+
 ## Render in Blender
 You can render the obtained depth map to obtain the 3d model :
 1. Create a mesh plane and subdevide it into 100-200 cuts.
