@@ -11,7 +11,7 @@ Set up dependencies:
 conda env create -f environment.yaml
 conda activate bits_256
 ```
-#ERROR
+# ERROR
 I'm figuring out how to upload weights of the model in git repo
 # Setup
 1. Place one or more input images in the folder \images\input
@@ -20,7 +20,13 @@ I'm figuring out how to upload weights of the model in git repo
 
    Optional :
    You can run Intrinsics_Calibration.py to calibrate your camera before process. [refrence](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
-
+# Render in Blender
+You can render the obtained depth map to obtain the 3d model :
+1. Create a mesh plane and subdevide it into 100-200 cuts.
+2. Apply the depth map as a displacement : Select the plane mesh and switch to the "Modifiers" tab in the Properties panel. Add a "Deform - Displace" modifier to the plane.
+3. Add a "new texture" from "Modifiers" tab and select the depth map texture from `/images/Output_DepthMap` from "Texture" tab.
+4. To add image texture to the model : Go to "Shading" window and add a new material type. Now press `Shift + A` add "Texture -> Image Texture". Select the orignal image and link the color of "image texture" to "Principal BSDF"
+5. You can further modify/ make changes as per your need.
 # Refrence
 1. https://arxiv.org/abs/1907.01341v3
 2. https://pjreddie.com/darknet/yolo/#google_vignette
