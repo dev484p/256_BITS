@@ -3,8 +3,8 @@ Project for Internship at 256_BITS Studio : This repository contains code to det
 
 ## Demo
 
-<img src="Demo/demo_1.gif" width="400" height="300">
-<img src="Demo/demo_2 (1).gif" width="400" height="300">
+<img src="Demo/demo_1.gif" width="350" height="270">
+<img src="Demo/demo_2 (1).gif" width="350" height="270">
 
 ## Overview
 1. For Object detection we use You Only Look Once: Unified, Real-Time Object Detection (YOLOv3) algorithm and a pre-trained model on 50 classes [coco](https://github.com/dev484p/256_BITS/blob/main/Obj_detection/coco.names). YOLO architecture is designed to simultaneously predict bounding boxes and class probabilities for multiple objects in an image. It divides the input image into a grid of cells and makes predictions for each cell. Each cell is responsible for predicting bounding boxes and associated class probabilities for objects that fall within that cell.
