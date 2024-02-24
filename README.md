@@ -2,8 +2,9 @@
 Project for Internship at 256_BITS Studio : This repository contains code to detects object (50 classes) and creates a Depth Map of Images also renders a 3d map.
 
 ## Demo
-https://github.com/dev484p/256_BITS/assets/126667293/98b2ddf4-12ce-430b-a700-ef7ba1537256
-https://github.com/dev484p/256_BITS/assets/126667293/58f880d1-7f69-4df9-a348-55137639af89
+![demo_1 (1)](https://github.com/dev484p/256_BITS/assets/126667293/4f70c614-629f-45de-a503-aafea13351e3)
+![demo_2](https://github.com/dev484p/256_BITS/assets/126667293/25186886-7a3f-438f-b623-5e0ad5270200)
+
 
 ## Overview
 1. For Object detection we use You Only Look Once: Unified, Real-Time Object Detection (YOLOv3) algorithm and a pre-trained model on 50 classes [coco](https://github.com/dev484p/256_BITS/blob/main/Obj_detection/coco.names). YOLO architecture is designed to simultaneously predict bounding boxes and class probabilities for multiple objects in an image. It divides the input image into a grid of cells and makes predictions for each cell. Each cell is responsible for predicting bounding boxes and associated class probabilities for objects that fall within that cell.
