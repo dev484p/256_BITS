@@ -10,5 +10,6 @@ def Depth_Map():
     os.chdir(f"{os.getcwd()}\..")
     run(input_path=f"{os.getcwd()}\images\input",output_path=f"{os.getcwd()}\images\Outut_DepthMap",model_type="dpt_beit_large_512",model_path="weights/dpt_beit_large_512.pt")
 
-obj_detection()
-Depth_Map()
+if __name__=="__main__":
+    obj_detection()
+    Depth_Map()
