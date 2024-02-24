@@ -2,6 +2,7 @@
 Project for Internship at 256_BITS Studio : This repository contains code to detects object (50 classes) and creates a Depth Map of Images also renders a 3d map.
 
 # Demo
+https://github.com/dev484p/256_BITS/assets/126667293/98b2ddf4-12ce-430b-a700-ef7ba1537256
 
 [![model_1](https://github.com/dev484p/256_BITS/blob/main/images/input/dataset_img4.png)]([https://github.com/your-username/your-repository/blob/main/demo_video.mp4](https://github.com/dev484p/256_BITS/blob/main/Demo/demo_1.mp4))
 
