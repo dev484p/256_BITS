@@ -27,6 +27,10 @@ conda activate bits_256
 |-------|-----|-----|
 | YOLOv3| 57.9| 20  |
 
+| Model | HRWSI-RMSE |BlendedMVS-REL|
+|-------|------------|--------------|
+| MiDaS |   0.068    |     0.070    |
+
 ## Render in Blender
 You can render the obtained depth map to obtain the 3d model :
 1. Create a mesh plane and subdevide it into 100-200 cuts.
