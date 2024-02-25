@@ -33,7 +33,7 @@ conda activate bits_256
 | MiDaS |   0.068    |     0.070    |
 
 ## Render in Blender
-You can render the obtained depth map to obtain the 3d model :
+You can render the obtained depth map to get a 3d model :
 1. Create a mesh plane and subdevide it into 100-200 cuts.
 2. Apply the depth map as a displacement : Select the plane mesh and switch to the "Modifiers" tab in the Properties panel. Add a "Deform - Displace" modifier to the plane.
 3. Add a "new texture" from "Modifiers" tab and select the depth map texture from `/images/Output_DepthMap` from "Texture" tab.
